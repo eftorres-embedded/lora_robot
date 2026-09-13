@@ -1,0 +1,26 @@
+# Python
+__Pycache__/
+*.pyc
+*.pyo
+
+# MicroPico local configuration
+.micropico
+
+# VS code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets / local configuration
+.env
+secrets.py
