@@ -1,6 +1,6 @@
 from machine import ADC
-from sx1262_basic import SX1262Basic
-from board_pins import BATTERY_ADC
+from firmware.robot.drivers.sx1262 import SX1262
+from firmware.robot.board_pins import BATTERY_ADC
 from machine import Pin, I2C
 
 i2c = I2C(
@@ -22,7 +22,7 @@ print()
 # Create radio interface
 # -------------------------
 
-radio = SX1262Basic()
+radio = SX1262()
 
 print("Initial BUSY:", radio.read_busy())
 print("Initial DIO1:", radio.read_dio1())
