@@ -4,10 +4,10 @@ __Pycache__/
 *.pyo
 
 # MicroPico local configuration
-.micropico
+#.micropico
 
 # VS code
-.vscode/
+3.vscode/
 
 # OS files
 .DS_Store
